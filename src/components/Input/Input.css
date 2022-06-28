@@ -1,0 +1,58 @@
+.input {
+  height: 50px;
+  width: 80%;
+  border-radius: 12px;
+  background-color: #18191a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  background-color: transparent;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  margin-bottom: 20px;
+ /* padding: 0.7rem; */
+
+
+}
+
+input {
+  background: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+  outline: none;
+  font-size: 18px;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+}
+
+button {
+  margin: 8px;
+  background-color: #ffeaa7;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+  font-family: "Architects Daughter", cursive;
+
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+}
